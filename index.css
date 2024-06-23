@@ -1,0 +1,36 @@
+.card{
+  border: 1px solid black;
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  text-align: center;
+}
+
+.card img{
+  height: 400px;
+  width: 300px;
+  padding: 20px;
+}
+
+.btn-primary{
+  margin: 10px;
+  float: right;
+
+}
+
+.mybox1 { 
+  display: none;
+} 
+
+
+*{
+text-transform: capitalize;
+  font-weight: 400;
+}
+
+#root{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
